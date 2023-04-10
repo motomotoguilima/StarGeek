@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sem serifa;
+}
+body{
+    background-color: rgba(39, 35, 57, 1);
+}
+.cabecalho{
+    background-color: rgba(227, 227, 181, 1);
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    height: 100%;
+    color: black;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    align-items: center;
+    margin: 10px;
+}
+
