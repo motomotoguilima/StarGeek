@@ -33,6 +33,9 @@ li {
     color: rgba(227, 227, 181, 1);
     border-radius: 20px;
 }
+
+
+
 .filmes2{
     background-color:  rgba(227, 227, 181, 1);
 padding: 20px;
@@ -56,33 +59,33 @@ h1{
 .filmes{
 margin-top: 100px;
 }
-.animes{
-    margin-top: 100px;
-}
-.animes2 > img {
-    height: 150px;
-    }
-.animes2{
-        background-color:  rgba(227, 227, 181, 1);
-    padding: 20px;
-    margin-top: 20px;
-    display: flex;
-    overflow: scroll;
-    gap: 50px;
-    }
-    .animes2::-webkit-scrollbar
-{
-    display: none;}
 
-.botaodeopiniao{
-    background-color: rgba(227, 227, 181, 1);
-    padding: 10px;
-    margin-left: 30px;
-    border-radius: 10px;
-    border: 2px solid black;
+
+
+
+
+
+
+.filmes3{
+    background-color:  rgba(227, 227, 181, 1);
+padding: 20px;
+margin-top: 20px;
+display: flex;
+overflow: scroll;
+gap: 50px;
+}
+.filmes3 > img {
+height: 150px;
+}
+h1{
+    color:  rgba(227, 227, 181, 1);
 }
 
-.feio
+.filmes3::-webkit-scrollbar
 {
-    margin-top: 50px;
+    display: none;
 }
+.filmesparafamiliatoda {
+margin-top: 100px;
+}
+

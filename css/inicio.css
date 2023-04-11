@@ -12,6 +12,7 @@ h1 {
     color: rgba(227, 227, 181, 1);
     font-size: 50px;
     text-align: center;
+    padding: 200px;
 }
 
 .div-1{
@@ -31,13 +32,47 @@ width: 600px;
 }
 .div-3 img {
     width: 1000px;
+    margin-bottom: 400px;
 }
 .botao1{
     background-color: rgba(227, 227, 181, 1);
-    padding: 30px;
+    padding: 50px;
     text-decoration: none;
     border: 1px solid rgb(0, 0, 0);
     color:rgba(39, 35, 57, 1);
     border-radius: 20px;
     font-size: 50px;
+   margin-top: 200px;
+
+}
+
+
+.iniciar {
+    border: solid;
+    background-color: rgba(227, 227, 181, 1);
+    color: rgb(39, 35, 57, 1);
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.Container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 300px;
+}
+
+.Container img {
+    margin-left: 15%;
+}
+
+.rolagem2{
+    padding: 100px;
+    margin: 100px;
 }

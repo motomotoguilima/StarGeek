@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sem serifa;
+}
+body{
+    background-color: rgba(39, 35, 57, 1);
+}
+.cabecalho{
+    background-color: rgba(227, 227, 181, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 40px;
+}
+.menu{
+    display: flex;
+    height: 100%;
+    color: black;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+    align-items: center;
+    margin: 10px;
+}
+.botao1{
+    background-color: rgba(39, 35, 57, 1);
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgba(227, 227, 181, 1);
+    border-radius: 20px;}
+    .animes{
+        margin-top: 100px;
+    }
+    .animes2 > img {
+        height: 150px;
+        width: 150px;
+        }
+    .animes2{
+            background-color:  rgba(227, 227, 181, 1);
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        overflow: scroll;
+        gap: 50px;
+        }
+        .animes2::-webkit-scrollbar
+    {
+        display: none;}
+       
+       
+ .jogos2{
+            background-color:  rgba(227, 227, 181, 1);
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        overflow: scroll;
+        gap: 50px;
+        }
+        .jogos2 > img {
+        height: 150px;
+        width: 150px;
+        }
+        h1{
+            color:  rgba(227, 227, 181, 1);
+        }
+        
+        .jogos2::-webkit-scrollbar
+        {
+            display: none;
+        }
+        .jogos {
+        margin-top: 100px;
+        }
+
+
+
+
+ .filmes2{
+            background-color:  rgba(227, 227, 181, 1);
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        overflow: scroll;
+        
+        gap: 50px;
+        }
+        .filmes2 > img {
+        height: 150px;
+        }
+        h1{
+            color:  rgba(227, 227, 181, 1);
+        }
+        
+        .filmes2::-webkit-scrollbar
+        {
+            display: none;
+        }
+        .filmes{
+        margin-top: 100px;
+        }
+
+
+
+
+        .series2{
+            background-color:  rgba(227, 227, 181, 1);
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        overflow: scroll;
+        gap: 50px;
+        }
+        .series2 > img {
+        height: 150px;
+        }
+        h1{
+            color:  rgba(227, 227, 181, 1);
+        }
+        
+        .series2::-webkit-scrollbar
+        {
+            display: none;
+        }
+        .series{
+        margin-top: 100px;
+        
+        }
