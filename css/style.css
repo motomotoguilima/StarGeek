@@ -8,6 +8,9 @@ body{
    background-image: url(../img/imagem\ agrupada.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
+   height: 100vh;
+
 }
 .div{
     text-align: center;

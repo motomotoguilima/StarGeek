@@ -42,6 +42,7 @@ padding: 20px;
 margin-top: 20px;
 display: flex;
 overflow: scroll;
+box-shadow: 10px 20px 30px black;
 
 gap: 50px;
 }
@@ -73,6 +74,7 @@ margin-top: 20px;
 display: flex;
 overflow: scroll;
 gap: 50px;
+box-shadow: 10px 20px 30px black;
 }
 .filmes3 > img {
 height: 150px;
@@ -87,5 +89,106 @@ h1{
 }
 .filmesparafamiliatoda {
 margin-top: 100px;
+}
+.botaodeopiniao{
+    background-color: rgba(227, 227, 181, 1);
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.desuaopiniao
+{
+    margin-top: 50px;
+}
+.filme1:hover
+{
+    content: url(../img/gif\ filme\ 1.gif);
+    
+}
+.filme2:hover
+{
+    content: url(../img/gif\ filme\ 2.gif);
+    
+}
+.filme3:hover
+{
+    content: url(../img/gif\ filme\ 3.gif);
+}
+.filme4:hover
+{
+    content: url(../img/gif\ filme\ 4.gif);
+}
+.filme5:hover
+{
+    content: url(../img/gif\ filme\ 5.gif);
+}
+.filme6:hover
+{
+    content: url(../img/gif\ filme\ 6.gif);
+}
+.filme7:hover
+{
+    content: url(../img/gif\ filme\ 7.gif);
+}
+
+.filme9:hover
+{
+    content: url(../img/gif\ filme\ 9.gif);
+}
+.filme10:hover
+{
+    content: url(../img/gif\ filme\ 10.gif);
+}
+.filme11:hover
+{
+    content: url(../img/gif\ filme\ 11.gif);
+}
+.filme12:hover
+{
+    content: url(../img/gif\ filme\ 12.gif);
+}
+.filme13:hover
+{
+    content: url(../img/gif\ filme\ 13d.gif);
+}
+.filme14:hover
+{
+    content: url(../img/gif\ filme\ 14.gif);
+}
+.filme15:hover
+{
+    content: url(../img/gif\ filme\ 15.gif);
+    width: 500px;
+    transition: 500ms;
+}
+.filme16:hover
+{
+    content: url(../img/gif\ filme\ 16.gif);
+}
+.filme17:hover
+{
+    content: url(../img/gif\ filme\ 17.gif);
+}
+.filme18:hover
+{
+    content: url(../img/gif\ filme\ 18.gif);
+}
+.filme19:hover
+{
+    content: url(../img/gif\ filme\ 19.gif);
+}
+@media (max-width:600px)
+{
+    .cabecalho{
+        flex-direction: column;
+    }
+    .menu > li > a{
+        font-size: 15px;
+    }
+}
+.menu > li > a{
+    color:rgb(113, 97, 182);
 }
 

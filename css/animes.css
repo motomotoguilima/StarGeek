@@ -50,7 +50,112 @@ h1{
     display: flex;
     overflow: scroll;
     gap: 50px;
+    box-shadow: 10px 20px 30px black;
     }
     .animes2::-webkit-scrollbar
 {
     display: none;}
+    
+.botaodeopiniao{
+        background-color: rgba(227, 227, 181, 1);
+        padding: 10px;
+        margin-left: 30px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    
+.desuaopiniao
+    {
+        margin-top: 50px;
+    }
+    .anime1:hover
+    {
+        content: url(../img/gif\ anime\ 1.gif);
+    }
+    .anime2:hover
+    {
+        content: url(../img/gif\ anime\ 2.gif);
+    }
+    .anime3:hover
+    {
+        content: url(../img/anime\ gif\ 3.gif);
+    }
+    .anime4:hover
+    {
+        content: url(../img/gif\ anime\ 4.gif);
+    }
+    .anime5:hover
+    {
+        content: url(../img/gif\ anime\ 5.gif);
+    }
+    .anime6:hover
+    {
+        content: url(../img/gif\ anime\ 6.gif);
+    }
+    .anime7:hover
+    {
+        content: url(../img/gif\ anime\ 7.gif);
+    }
+    .anime8:hover
+    {
+        content: url(../img/gif\ anime\ 8.gif);
+    }
+    .anime9:hover
+    {
+        content: url(../img/gif\ anime\ 9.gif);
+    }
+    .anime10:hover
+    {
+        content: url(../img/gif\ anime\ 10.gif);
+    }
+    .anime11:hover
+    {
+        content: url(../img/gif\ anime\ 11.gif);
+    }
+    .anime12:hover
+    {
+        content: url(../img/gif\ anime\ 12.gif);
+    }
+    .anime13:hover
+    {
+        content: url(../img/gif\ anime\ 13.gif);
+    }
+    .anime14:hover
+    {
+        content: url(../img/gif\ anime\ 14.gif);
+    }
+    .anime15:hover
+    {
+        content: url(../img/gif\ anime\ 15.gif);
+    }
+    .anime16:hover
+    {
+        content: url(../img/gif\ anime\ 16.gif);
+    }
+    .anime17:hover
+    {
+        content: url(../img/gif\ anime\ 17.gif);
+    }
+    .anime18:hover
+    {
+        content: url(../img/gif\ anime\ 18.gif);
+    }
+    .anime19:hover
+    {
+        content: url(../img/gif\ anime\ 19.gif);
+    }
+    .anime10:hover
+    {
+        content: url(../img/gif\ anime\ 10.gif);
+    }
+    @media (max-width:600px)
+{
+    .cabecalho{
+        flex-direction: column;
+    }
+    .menu > li > a{
+        font-size: 15px;
+    }
+}.menu > li > a{
+    color:rgb(126, 106, 215);
+}

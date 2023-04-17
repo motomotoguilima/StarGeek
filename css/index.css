@@ -26,8 +26,11 @@ li {
     align-items: center;
     margin: 10px;
 }
+.menu > li > a{
+    color:rgba(39, 35, 57, 1);
+}
 .botao1{
-    background-color: rgba(39, 35, 57, 1);
+    background-color: rgb(136, 123, 188);
     padding: 5px;
     border: 1px solid rgb(0, 0, 0);
     color: rgba(227, 227, 181, 1);
@@ -82,7 +85,180 @@ margin-top: 100px;
     border: 2px solid black;
 }
 
-.feio
+.desuaopiniao
 {
     margin-top: 50px;
+}
+.filme1:hover
+{
+    content: url(../img/gif\ filme\ 1.gif);
+    
+}
+.filme2:hover
+{
+    content: url(../img/gif\ filme\ 2.gif);
+    
+}
+.filme3:hover
+{
+    content: url(../img/gif\ filme\ 3.gif);
+}
+.filme4:hover
+{
+    content: url(../img/gif\ filme\ 4.gif);
+}
+.filme5:hover
+{
+    content: url(../img/gif\ filme\ 5.gif);
+}
+.filme6:hover
+{
+    content: url(../img/gif\ filme\ 6.gif);
+}
+.filme7:hover
+{
+    content: url(../img/gif\ filme\ 7.gif);
+}
+
+.filme9:hover
+{
+    content: url(../img/gif\ filme\ 9.gif);
+}
+.filme10:hover
+{
+    content: url(../img/gif\ filme\ 10.gif);
+}
+.filme11:hover
+{
+    content: url(../img/gif\ filme\ 11.gif);
+}
+.filme12:hover
+{
+    content: url(../img/gif\ filme\ 12.gif);
+}
+.filme13:hover
+{
+    content: url(../img/gif\ filme\ 13d.gif);
+}
+.filme14:hover
+{
+    content: url(../img/gif\ filme\ 14.gif);
+}
+.filme15:hover
+{
+    content: url(../img/gif\ filme\ 15.gif);
+    width: 500px;
+    transition: 500ms;
+}
+.filme16:hover
+{
+    content: url(../img/gif\ filme\ 16.gif);
+}
+.filme17:hover
+{
+    content: url(../img/gif\ filme\ 17.gif);
+}
+.filme18:hover
+{
+    content: url(../img/gif\ filme\ 18.gif);
+}
+.filme19:hover
+{
+    content: url(../img/gif\ filme\ 19.gif);
+}
+
+.anime1:hover
+{
+    content: url(../img/gif\ anime\ 1.gif);
+}
+.anime2:hover
+{
+    content: url(../img/gif\ anime\ 2.gif);
+}
+.anime3:hover
+{
+    content: url(../img/anime\ gif\ 3.gif);
+}
+.anime4:hover
+{
+    content: url(../img/gif\ anime\ 4.gif);
+}
+.anime5:hover
+{
+    content: url(../img/gif\ anime\ 5.gif);
+}
+.anime6:hover
+{
+    content: url(../img/gif\ anime\ 6.gif);
+}
+.anime7:hover
+{
+    content: url(../img/gif\ anime\ 7.gif);
+}
+.anime8:hover
+{
+    content: url(../img/gif\ anime\ 8.gif);
+}
+.anime9:hover
+{
+    content: url(../img/gif\ anime\ 9.gif);
+}
+.anime10:hover
+{
+    content: url(../img/gif\ anime\ 10.gif);
+}
+.anime11:hover
+{
+    content: url(../img/gif\ anime\ 11.gif);
+}
+.anime12:hover
+{
+    content: url(../img/gif\ anime\ 12.gif);
+}
+.anime13:hover
+{
+    content: url(../img/gif\ anime\ 13.gif);
+}
+.anime14:hover
+{
+    content: url(../img/gif\ anime\ 14.gif);
+}
+.anime15:hover
+{
+    content: url(../img/gif\ anime\ 15.gif);
+}
+.anime16:hover
+{
+    content: url(../img/gif\ anime\ 16.gif);
+}
+.anime17:hover
+{
+    content: url(../img/gif\ anime\ 17.gif);
+}
+.anime18:hover
+{
+    content: url(../img/gif\ anime\ 18.gif);
+}
+.anime19:hover
+{
+    content: url(../img/gif\ anime\ 19.gif);
+}
+.anime10:hover
+{
+    content: url(../img/gif\ anime\ 10.gif);
+}
+
+
+
+@media (max-width:600px)
+{
+    .cabecalho{
+        flex-direction: column;
+    }
+    .menu > li > a{
+        font-size: 15px;
+    }
+}
+.menu > li > a{
+    color:rgb(123, 107, 192);
 }

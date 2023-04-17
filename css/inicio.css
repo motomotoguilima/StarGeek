@@ -12,28 +12,12 @@ h1 {
     color: rgba(227, 227, 181, 1);
     font-size: 50px;
     text-align: center;
-    padding: 200px;
+    padding: 20%;
 }
 
-.div-1{
-    display: flex;
-    justify-content: end;
-}
 
-.div-1 img {
-    width: 900px;
-}
-.div-2 img {
-width: 600px;
-}
-.div-3{
-    display: flex;
-    justify-content: end;
-}
-.div-3 img {
-    width: 1000px;
-    margin-bottom: 400px;
-}
+
+
 .botao1{
     background-color: rgba(227, 227, 181, 1);
     padding: 50px;
@@ -65,14 +49,28 @@ width: 600px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 300px;
-}
-
-.Container img {
-    margin-left: 15%;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 .rolagem2{
+    text-align: center;
     padding: 100px;
     margin: 100px;
+}
+
+@media (max-width:600px){
+    .rolagem2{
+        padding: 10px;
+        margin: 10px;
+    }
+    .Container > img {
+        max-width: 500px;
+    }
+    .rolagem2 > img {
+        max-width: 500px;
+    }
+}
+.menu > li > a{
+    color:rgb(127, 112, 192);
 }
