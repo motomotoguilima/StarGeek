@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    box-shadow: 10px 20px 30px;
     font-size: 40px;
 }
 .menu{
@@ -137,6 +137,7 @@ li {
 .anime1:hover
 {
     content: url(../img/gif\ anime\ 1.gif);
+    
 }
 .anime2:hover
 {
@@ -382,4 +383,40 @@ margin-top: 50px;
 }
 .menu > li > a{
     color:rgb(123, 107, 192);
+}
+.jogos1:hover
+{
+    content: url(../img/gif\ jogos1.1.gif);
+}
+.jogos6:hover
+{
+    content: url(../img/gif\ jogos\ 6.gif);
+}
+.jogos5:hover
+{
+    content: url(../img/gif\ jogos\ 4.gif);
+}
+.jogos8:hover
+{
+    content: url(../img/gif\ jogos\ 8.gif);
+}
+.jogos10:hover
+{
+    content: url(../img/gif\ jogos\ 9.gif);
+}
+.jogos4:hover
+{
+    content: url(../img/gif\ jogos\ 3.3.gif);
+}
+.jogos3:hover
+{
+    content: url(../img/gif\ jogos\ 3.3.3.gif);
+}
+.jogos9:hover
+{
+    content: url(../img/gif\ jogos\ 9.9.gif);
+}
+.jogos11:hover
+{
+    content: url(../img/gif\ jogos\ 10.gif);
 }

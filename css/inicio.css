@@ -20,12 +20,12 @@ h1 {
 
 .botao1{
     background-color: rgba(227, 227, 181, 1);
-    padding: 50px;
+    padding: 5px;
     text-decoration: none;
     border: 1px solid rgb(0, 0, 0);
     color:rgba(39, 35, 57, 1);
     border-radius: 20px;
-    font-size: 50px;
+    font-size: 25px;
    margin-top: 200px;
 
 }
@@ -73,4 +73,9 @@ h1 {
 }
 .menu > li > a{
     color:rgb(127, 112, 192);
+}
+.rolagem2 img {
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
 }

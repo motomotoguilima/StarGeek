@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 10px 20px 30px ;
 
     font-size: 40px;
 }
@@ -35,6 +36,7 @@ li {
     border: 1px solid rgb(0, 0, 0);
     color: rgba(227, 227, 181, 1);
     border-radius: 20px;
+    background-color: black;
 }
 .filmes2{
     background-color:  rgba(227, 227, 181, 1);
@@ -42,7 +44,7 @@ padding: 20px;
 margin-top: 20px;
 display: flex;
 overflow: scroll;
-
+box-shadow: 10px 20px 30px;
 gap: 50px;
 }
 .filmes2 > img {
@@ -72,6 +74,7 @@ margin-top: 100px;
     display: flex;
     overflow: scroll;
     gap: 50px;
+    box-shadow: 10px 20px 30px;
     }
     .animes2::-webkit-scrollbar
 {
@@ -260,5 +263,6 @@ margin-top: 100px;
     }
 }
 .menu > li > a{
-    color:rgb(123, 107, 192);
+    color:rgb(165, 149, 235);
+    
 }
