@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
     margin: 0 auto;
     background-color: aliceblue;
-    width: 600px;
+    max-width: 600px;
     height: 600px;
     margin-top: 50px;
     background-color: rgba(227, 227, 181, 1);
@@ -66,17 +66,6 @@ body {
     width: 200px;
 
 }
-
-@media (max-width:600px) {
-    .cabecalho {
-        flex-direction: column;
-    }
-
-    .menu>li>a {
-        font-size: 15px;
-    }
-}
-
 .menu>li>a {
     color: rgb(126, 106, 215);
 }
@@ -86,10 +75,12 @@ body {
 
 .TextoCadastro {
     color: rgba(227, 227, 181, 1);
+    
 }
 
-@media (max-width:600){
-    .cabecalho {
-        flex-direction: column;
-    }
+.imgADC{
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
 }

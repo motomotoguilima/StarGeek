@@ -58,3 +58,9 @@ span {
 div p {
     font-size: 15px;
 }
+
+@media (max-width:600px) {
+    .div{
+        margin-top: 100px;
+    }
+}

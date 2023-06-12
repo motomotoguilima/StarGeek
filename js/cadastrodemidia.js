@@ -4,6 +4,12 @@ if (listaFilmes == null) {
     listaFilmes = []
 }
 
+function preencherMidiaC(filme, genero, linkDfilme) {
+    if (filme == '' || genero== '' || linkDfilme == '' ) {
+        alert("e obrigatorio preencher todos os campos")
+        return false
+    }
+}
 
 function cadastrarFilmes() {
     var filme = document.getElementById("inp").value
@@ -11,9 +17,9 @@ function cadastrarFilmes() {
     var linkDfilme = document.getElementById("inp3").value
 
     var objFilme = {
-        filme: filme,
-        genero: genero,
-        linkes: linkDfilme
+        'filme': filme,
+        'genero': genero,
+        'linkes': linkDfilme
     }
     listaFilmes.push(objFilme)
     localStorage.setItem('bdFilmes', JSON.stringify(listaFilmes))
@@ -26,7 +32,7 @@ function mostrarCadastro(){
     document.getElementById('resultados').innerHTML=``
     listaFilmes.forEach((item, posi) =>{
         document.getElementById('resultados').innerHTML +=
-        ` <br> <p class="TextoCadastro">midia:${item.filme} <img src='excluir.svg' onclick='excluirMidia(${posi}) '></p>  `
+        ` <br> <p class="TextoCadastro">midia:${item.filme} <img class="imgADC" src='${item.linkes}'> <img src='excluir.svg' onclick='excluirMidia(${posi}) '></p>  `
     })
 }
 function excluirMidia(item){
@@ -36,3 +42,4 @@ function excluirMidia(item){
         mostrarCadastro()
     }
 }
+

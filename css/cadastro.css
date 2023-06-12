@@ -62,3 +62,10 @@ body {
     margin-top: 10px;
     border-radius: 7px;
 }
+
+
+@media (max-width:600px) {
+    .div{
+        margin-top: 100px;
+    }
+}
