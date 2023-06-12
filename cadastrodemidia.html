@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/midia.css">
 </head>
-<body>
+<body onload="mostrarCadastro()">
     <header class="cabecalho">
         <img src="img/logo imagem.png">
     </header>
@@ -18,26 +18,36 @@
                 <div>
                     <h1> Cadastro de mídia </h1>
                     Nome do titulo<br>
-                    <input class="input" type="text"> 
+                    <input class="input" id="inp" type="text"> 
                 </div>
                 <div>
-                    Resumo<br>
-                    <input class="input" type="text">
-                </div>
-                <div>
-                    Critíca<br>
-                    <input class="input" type="text">
+                    categoria<br>
+                    <div>
+                        <select name="" id="inp1" class="categoria">
+                            <option value="filmes">filmes</option>
+                            <option value="jogos">jogos</option>
+                            <option value="series">series</option>
+                            <option value="animes">animes</option>
+                        </select>
+                    </div>
                 </div>
                 <div> 
-                    colocar a foto do titulo<br>
-                    <input type="file"> 
+                    colocar link do titulo<br>
+                    <input class="input" type="text" id="inp3">
                 </div>
                 <br>
                 <div>
-                    <a  href="index.html"class="botao" > enviar e voltar </a>
+                    <a  href="#" class="botao" onclick="cadastrarFilmes()"> enviar e voltar </a>
                 </div>
 
             </div>
-    </form>
+    </form> 
+    <div>
+    <h1 class="lixo"> titulos adicionados </h1>
+    <div  id="resultados" >
+   
+   </div>
+     </div>
 </body>
+<script src="js/cadastrodemidia.js"></script>
 </html>

@@ -7,6 +7,7 @@
     <title>StarGeek</title>
     <link rel="stylesheet" href="css/cadastro.css">
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    
 </head>
 <body>
     
@@ -16,30 +17,31 @@
                 
                 <div>
                     <h1> Cadastro de Cliente  </h1>
-                    <input class="input" type="text" placeholder="nome completo">
+                    <input class="input" type="text" id="inp" placeholder="nome completo">
                 </div>
                 <div>
-                    <input class="input" type="email" placeholder="digite seu email">
+                    <input class="input" type="email" id="inp1" placeholder="digite seu email">
                 </div>
                 <div>
                     
-                    <input class="input" type="password" placeholder="senha">
+                    <input class="input" type="password" id="inp2" placeholder="senha">
                 </div>
                 <div>
-                    <input class="data" type="date" placeholder="data">
+                    <input class="data" type="date" id="inp3" placeholder="data">
                 </div>
                 <div>
-                    <input class="input" type="text" placeholder="endereço">
+                    <input class="input" type="text" id="inp4"placeholder="endereço">
                 </div>
                 <div>
-                    <input class="input" type="text" placeholder="CPF">
+                    <input class="input" type="text" id="inp5" placeholder="CPF">
                 </div>  
                 <div class="botao2">
-                    <a href="filme.html" class="botao"> Cadastrar </a>
+                    <a href="#" onclick="cadastrarUsuario()" class="botao"> cadastrar e voltar </a>
                 </div>
                 
             </div>
         </div>
     </form>
 </body>
+<script src="js/cadastro.js"></script>
 </html>

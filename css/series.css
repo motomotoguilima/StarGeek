@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: 'Roboto', sem serifa;
 }
-body{
+
+body {
     background-color: rgba(39, 35, 57, 1);
 }
-.cabecalho{
+
+.cabecalho {
     background-color: rgba(227, 227, 181, 1);
     display: flex;
     justify-content: space-between;
@@ -15,18 +17,21 @@ body{
     box-shadow: 10px 20px 30px;
     font-size: 40px;
 }
-.menu{
+
+.menu {
     display: flex;
     height: 100%;
     color: black;
     align-items: center;
 }
+
 li {
     list-style-type: none;
     align-items: center;
     margin: 10px;
 }
-.botao1{
+
+.botao1 {
     background-color: rgba(39, 35, 57, 1);
     padding: 5px;
     border: 1px solid rgb(0, 0, 0);
@@ -34,30 +39,33 @@ li {
     border-radius: 20px;
 }
 
-.series2{
-    background-color:  rgba(227, 227, 181, 1);
-padding: 20px;
-margin-top: 20px;
-display: flex;
-overflow: scroll;
-gap: 50px;
-box-shadow: 10px 20px 30px black;
-}
-.series2 > img {
-height: 150px;
-}
-h1{
-    color:  rgba(227, 227, 181, 1);
+.series2 {
+    background-color: rgba(227, 227, 181, 1);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    overflow: scroll;
+    gap: 50px;
+    box-shadow: 10px 20px 30px black;
 }
 
-.series2::-webkit-scrollbar
-{
+.series2>img {
+    height: 150px;
+}
+
+h1 {
+    color: rgba(227, 227, 181, 1);
+}
+
+.series2::-webkit-scrollbar {
     display: none;
 }
-.series{
-margin-top: 100px;
+
+.series {
+    margin-top: 100px;
 }
-.botaodeopiniao{
+
+.botaodeopiniao {
     background-color: rgba(227, 227, 181, 1);
     padding: 10px;
     margin-left: 30px;
@@ -65,79 +73,92 @@ margin-top: 100px;
     border: 2px solid black;
 }
 
-.desuaopiniao
-{
+.desuaopiniao {
     margin-top: 50px;
 }
-.hover1:hover{
+
+.hover1:hover {
     content: url(../img/gif\ series\ 1.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover3:hover{
+
+.hover3:hover {
     content: url(../img/gif\ series\ 1\ e.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover2:hover{
+
+.hover2:hover {
     content: url(../img/gif\ series\ 2.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover4:hover{
+
+.hover4:hover {
     content: url(../img/gif\ series\ 4.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover5:hover{
+
+.hover5:hover {
     content: url(../img/gif\ series\ 5.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover6:hover{
+
+.hover6:hover {
     content: url(../img/gif\ series6.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover7:hover{
+
+.hover7:hover {
     content: url(../img/gif\ series\ 7.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover8:hover{
+
+.hover8:hover {
     content: url(../img/gif\ series\ 8.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover9:hover{
+
+.hover9:hover {
     content: url(../img/gif\ series\ 9.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover10:hover{
+
+.hover10:hover {
     content: url(../img/gif\ series\ 10.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover11:hover{
+
+.hover11:hover {
     content: url(../img/gif\ series\ 11.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover13:hover{
+
+.hover13:hover {
     content: url(../img/gif\ series\ 13.gif);
     width: 500px;
     transition: 500ms;
 }
-@media (max-width:600px)
-{
-    .cabecalho{
+
+@media (max-width:600px) {
+    .cabecalho {
         flex-direction: column;
     }
-    .menu > li > a{
+
+    .menu>li>a {
         font-size: 15px;
     }
 }
-.menu > li > a{
-    color:rgb(123, 107, 192);
+
+.menu>li>a {
+    color: rgb(123, 107, 192);
 }

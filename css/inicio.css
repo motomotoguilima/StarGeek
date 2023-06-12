@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: 'Roboto', sem serifa;
 }
-body{
+
+body {
     background-color: rgba(39, 35, 57, 1);
 
 }
+
 h1 {
     color: rgba(227, 227, 181, 1);
     font-size: 50px;
@@ -18,15 +20,15 @@ h1 {
 
 
 
-.botao1{
+.botao1 {
     background-color: rgba(227, 227, 181, 1);
     padding: 5px;
     text-decoration: none;
     border: 1px solid rgb(0, 0, 0);
-    color:rgba(39, 35, 57, 1);
+    color: rgba(39, 35, 57, 1);
     border-radius: 20px;
     font-size: 25px;
-   margin-top: 200px;
+    margin-top: 200px;
 
 }
 
@@ -53,29 +55,34 @@ h1 {
     padding-bottom: 300px;
 }
 
-.rolagem2{
+.rolagem2 {
     text-align: center;
     padding: 100px;
     margin: 100px;
 }
 
-@media (max-width:600px){
-    .rolagem2{
+@media (max-width:600px) {
+    .rolagem2 {
         padding: 10px;
         margin: 10px;
     }
-    .Container > img {
-        max-width: 500px;
+
+    .Container>img {
+        max-width: 200px;
     }
-    .rolagem2 > img {
-        max-width: 500px;
+
+    .rolagem2>img {
+        max-width: 200px;
+        max-height: 200px;
     }
 }
-.menu > li > a{
-    color:rgb(127, 112, 192);
+
+.menu>li>a {
+    color: rgb(127, 112, 192);
 }
+
 .rolagem2 img {
-    width: 1000px;
-    height: 600px;
+    width: 800px;
+    height: 500px;
     border-radius: 20px;
 }

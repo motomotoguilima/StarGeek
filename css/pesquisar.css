@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: 'Roboto', sem serifa;
 }
-body{
+
+body {
     background-color: rgba(39, 35, 57, 1);
 }
-.cabecalho{
+
+.cabecalho {
     background-color: rgba(227, 227, 181, 1);
     display: flex;
     justify-content: space-between;
@@ -15,204 +17,217 @@ body{
     box-shadow: 10px 20px 30px;
     font-size: 40px;
 }
-.menu{
+
+.menu {
     display: flex;
     height: 100%;
     color: black;
     align-items: center;
 }
+
 li {
     list-style-type: none;
     align-items: center;
     margin: 10px;
 }
-.botao1{
+
+.botao1 {
     background-color: rgba(39, 35, 57, 1);
     padding: 5px;
     border: 1px solid rgb(0, 0, 0);
     color: rgba(227, 227, 181, 1);
-    border-radius: 20px;}
-    .animes{
-        margin-top: 100px;
-        box-shadow: 10px 20px 30px black;
-        
-    }
-    .animes2 > img {
-        height: 150px;
-        width: 150px;
-        }
-    .animes2{
-            background-color:  rgba(227, 227, 181, 1);
-        padding: 20px;
-        margin-top: 20px;
-        display: flex;
-        overflow: scroll;
-        gap: 50px;
-        box-shadow: 200px;
-        }
-        .animes2::-webkit-scrollbar
-    {
-        display: none;}
-       
-       
- .jogos2{
-            background-color:  rgba(227, 227, 181, 1);
-        padding: 20px;
-        margin-top: 20px;
-        display: flex;
-        overflow: scroll;
-        gap: 50px;
-        }
-        .jogos2 > img {
-        height: 150px;
-        width: 150px;
-        }
-        h1{
-            color:  rgba(227, 227, 181, 1);
-        }
-        
-        .jogos2::-webkit-scrollbar
-        {
-            display: none;
-        }
-        .jogos {
-        margin-top: 200px;
-        box-shadow: 10px 20px 30px black;
-        }
-
-
-
-
- .filmes2{
-            background-color:  rgba(227, 227, 181, 1);
-        padding: 20px;
-        margin-top: 20px;
-        display: flex;
-        overflow: scroll;
-        
-        gap: 50px;
-        }
-        .filmes2 > img {
-        height: 150px;
-        width: 150px;
-        }
-        h1{
-            color:  rgba(227, 227, 181, 1);
-        }
-        
-        .filmes2::-webkit-scrollbar
-        {
-            display: none;
-        }
-        .filmes{
-        margin-top: 200px;
-        box-shadow: 10px 20px 30px black;
-        }
-       
-        h1{
-            color:  rgba(227, 227, 181, 1);
-        }
-        .h11{
-            margin-bottom: 25px;
-            margin-top: 200px;
-           
-        }
-       
-        .series2{
-            background-color:  rgba(227, 227, 181, 1);
-            width: 100%;
-            display: flex;
-            overflow: scroll;
-            box-shadow: 10px 20px 30px black;
-        }
-        .series2 > img {
-            width: 150px;
-            margin: 20px
-        }
-        .series2::-webkit-scrollbar
-        {
-            display: none;
-        }
-
-.anime1:hover
-{
-    content: url(../img/gif\ anime\ 1.gif);
-    
+    border-radius: 20px;
 }
-.anime2:hover
-{
+
+.animes {
+    margin-top: 100px;
+    box-shadow: 10px 20px 30px black;
+
+}
+
+.animes2>img {
+    height: 150px;
+    width: 150px;
+}
+
+.animes2 {
+    background-color: rgba(227, 227, 181, 1);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    overflow: scroll;
+    gap: 50px;
+    box-shadow: 200px;
+}
+
+.animes2::-webkit-scrollbar {
+    display: none;
+}
+
+
+.jogos2 {
+    background-color: rgba(227, 227, 181, 1);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    overflow: scroll;
+    gap: 50px;
+}
+
+.jogos2>img {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    color: rgba(227, 227, 181, 1);
+}
+
+.jogos2::-webkit-scrollbar {
+    display: none;
+}
+
+.jogos {
+    margin-top: 200px;
+    box-shadow: 10px 20px 30px black;
+}
+
+
+
+
+.filmes2 {
+    background-color: rgba(227, 227, 181, 1);
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    overflow: scroll;
+
+    gap: 50px;
+}
+
+.filmes2>img {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    color: rgba(227, 227, 181, 1);
+}
+
+.filmes2::-webkit-scrollbar {
+    display: none;
+}
+
+.filmes {
+    margin-top: 200px;
+    box-shadow: 10px 20px 30px black;
+}
+
+h1 {
+    color: rgba(227, 227, 181, 1);
+}
+
+.h11 {
+    margin-bottom: 25px;
+    margin-top: 200px;
+
+}
+
+.series2 {
+    background-color: rgba(227, 227, 181, 1);
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    box-shadow: 10px 20px 30px black;
+}
+
+.series2>img {
+    width: 150px;
+    margin: 20px
+}
+
+.series2::-webkit-scrollbar {
+    display: none;
+}
+
+.anime1:hover {
+    content: url(../img/gif\ anime\ 1.gif);
+
+}
+
+.anime2:hover {
     content: url(../img/gif\ anime\ 2.gif);
 }
-.anime3:hover
-{
+
+.anime3:hover {
     content: url(../img/anime\ gif\ 3.gif);
 }
-.anime4:hover
-{
+
+.anime4:hover {
     content: url(../img/gif\ anime\ 4.gif);
 }
-.anime5:hover
-{
+
+.anime5:hover {
     content: url(../img/gif\ anime\ 5.gif);
 }
-.anime6:hover
-{
+
+.anime6:hover {
     content: url(../img/gif\ anime\ 6.gif);
 }
-.anime7:hover
-{
+
+.anime7:hover {
     content: url(../img/gif\ anime\ 7.gif);
 }
-.anime8:hover
-{
+
+.anime8:hover {
     content: url(../img/gif\ anime\ 8.gif);
 }
-.anime9:hover
-{
+
+.anime9:hover {
     content: url(../img/gif\ anime\ 9.gif);
 }
-.anime10:hover
-{
+
+.anime10:hover {
     content: url(../img/gif\ anime\ 10.gif);
 }
-.anime11:hover
-{
+
+.anime11:hover {
     content: url(../img/gif\ anime\ 11.gif);
 }
-.anime12:hover
-{
+
+.anime12:hover {
     content: url(../img/gif\ anime\ 12.gif);
 }
-.anime13:hover
-{
+
+.anime13:hover {
     content: url(../img/gif\ anime\ 13.gif);
 }
-.anime14:hover
-{
+
+.anime14:hover {
     content: url(../img/gif\ anime\ 14.gif);
 }
-.anime15:hover
-{
+
+.anime15:hover {
     content: url(../img/gif\ anime\ 15.gif);
 }
-.anime16:hover
-{
+
+.anime16:hover {
     content: url(../img/gif\ anime\ 16.gif);
 }
-.anime17:hover
-{
+
+.anime17:hover {
     content: url(../img/gif\ anime\ 17.gif);
 }
-.anime18:hover
-{
+
+.anime18:hover {
     content: url(../img/gif\ anime\ 18.gif);
 }
-.anime19:hover
-{
+
+.anime19:hover {
     content: url(../img/gif\ anime\ 19.gif);
 }
-.anime10:hover
-{
+
+.anime10:hover {
     content: url(../img/gif\ anime\ 10.gif);
 }
 
@@ -221,202 +236,214 @@ li {
 
 
 
-.filme1:hover
-{
+.filme1:hover {
     content: url(../img/gif\ filme\ 1.gif);
-    
+
 }
-.filme2:hover
-{
+
+.filme2:hover {
     content: url(../img/gif\ filme\ 2.gif);
-    
+
 }
-.filme3:hover
-{
+
+.filme3:hover {
     content: url(../img/gif\ filme\ 3.gif);
 }
-.filme4:hover
-{
+
+.filme4:hover {
     content: url(../img/gif\ filme\ 4.gif);
 }
-.filme5:hover
-{
+
+.filme5:hover {
     content: url(../img/gif\ filme\ 5.gif);
 }
-.filme6:hover
-{
+
+.filme6:hover {
     content: url(../img/gif\ filme\ 6.gif);
 }
-.filme7:hover
-{
+
+.filme7:hover {
     content: url(../img/gif\ filme\ 7.gif);
 }
 
-.filme9:hover
-{
+.filme9:hover {
     content: url(../img/gif\ filme\ 9.gif);
 }
-.filme10:hover
-{
+
+.filme10:hover {
     content: url(../img/gif\ filme\ 10.gif);
 }
-.filme11:hover
-{
+
+.filme11:hover {
     content: url(../img/gif\ filme\ 11.gif);
 }
-.filme12:hover
-{
+
+.filme12:hover {
     content: url(../img/gif\ filme\ 12.gif);
 }
-.filme13:hover
-{
+
+.filme13:hover {
     content: url(../img/gif\ filme\ 13d.gif);
 }
-.filme14:hover
-{
+
+.filme14:hover {
     content: url(../img/gif\ filme\ 14.gif);
 }
-.filme15:hover
-{
+
+.filme15:hover {
     content: url(../img/gif\ filme\ 15.gif);
     width: 500px;
     transition: 500ms;
 }
-.filme16:hover
-{
+
+.filme16:hover {
     content: url(../img/gif\ filme\ 16.gif);
 }
-.filme17:hover
-{
+
+.filme17:hover {
     content: url(../img/gif\ filme\ 17.gif);
 }
-.filme18:hover
-{
+
+.filme18:hover {
     content: url(../img/gif\ filme\ 18.gif);
 }
-.filme19:hover
-{
+
+.filme19:hover {
     content: url(../img/gif\ filme\ 19.gif);
 }
 
 
-.hover1:hover{
+.hover1:hover {
     content: url(../img/gif\ series\ 1.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover3:hover{
+
+.hover3:hover {
     content: url(../img/gif\ series\ 1\ e.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover2:hover{
+
+.hover2:hover {
     content: url(../img/gif\ series\ 2.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover4:hover{
+
+.hover4:hover {
     content: url(../img/gif\ series\ 4.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover5:hover{
+
+.hover5:hover {
     content: url(../img/gif\ series\ 5.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover6:hover{
+
+.hover6:hover {
     content: url(../img/gif\ series6.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover7:hover{
+
+.hover7:hover {
     content: url(../img/gif\ series\ 7.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover8:hover{
+
+.hover8:hover {
     content: url(../img/gif\ series\ 8.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover9:hover{
+
+.hover9:hover {
     content: url(../img/gif\ series\ 9.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover10:hover{
+
+.hover10:hover {
     content: url(../img/gif\ series\ 10.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover11:hover{
+
+.hover11:hover {
     content: url(../img/gif\ series\ 11.gif);
     width: 500px;
     transition: 500ms;
 }
-.hover13:hover{
+
+.hover13:hover {
     content: url(../img/gif\ series\ 13.gif);
     width: 500px;
     transition: 500ms;
 }
-.desuaopiniao
-{
-margin-top: 50px;
+
+.desuaopiniao {
+    margin-top: 50px;
 
 }
-.botaodeopiniao{
+
+.botaodeopiniao {
     background-color: rgba(227, 227, 181, 1);
     padding: 10px;
     margin-left: 30px;
     border-radius: 10px;
     border: 2px solid black;
 }
-@media (max-width:600px)
-{
-    .cabecalho{
+
+@media (max-width:600px) {
+    .cabecalho {
         flex-direction: column;
     }
-    .menu > li > a{
+
+    .menu>li>a {
         font-size: 15px;
     }
 }
-.menu > li > a{
-    color:rgb(123, 107, 192);
+
+.menu>li>a {
+    color: rgb(123, 107, 192);
 }
-.jogos1:hover
-{
+
+.jogos1:hover {
     content: url(../img/gif\ jogos1.1.gif);
 }
-.jogos6:hover
-{
+
+.jogos6:hover {
     content: url(../img/gif\ jogos\ 6.gif);
 }
-.jogos5:hover
-{
+
+.jogos5:hover {
     content: url(../img/gif\ jogos\ 4.gif);
 }
-.jogos8:hover
-{
+
+.jogos8:hover {
     content: url(../img/gif\ jogos\ 8.gif);
 }
-.jogos10:hover
-{
+
+.jogos10:hover {
     content: url(../img/gif\ jogos\ 9.gif);
 }
-.jogos4:hover
-{
+
+.jogos4:hover {
     content: url(../img/gif\ jogos\ 3.3.gif);
 }
-.jogos3:hover
-{
+
+.jogos3:hover {
     content: url(../img/gif\ jogos\ 3.3.3.gif);
 }
-.jogos9:hover
-{
+
+.jogos9:hover {
     content: url(../img/gif\ jogos\ 9.9.gif);
 }
-.jogos11:hover
-{
+
+.jogos11:hover {
     content: url(../img/gif\ jogos\ 10.gif);
 }
